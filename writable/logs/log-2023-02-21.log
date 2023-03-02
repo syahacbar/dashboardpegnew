@@ -1,0 +1,37 @@
+CRITICAL - 2023-02-21 13:14:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dashboardpegnew'
+#0 D:\xampp7\htdocs\dashboardpegnew\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp7\htdocs\dashboardpegnew\app\Models\BaseModel.php(113): CodeIgniter\Database\BaseConnection->query('SELECT * FROM m...', Array)
+#2 D:\xampp7\htdocs\dashboardpegnew\app\Controllers\BaseController.php(47): App\Models\BaseModel->getModule('home')
+#3 D:\xampp7\htdocs\dashboardpegnew\app\Controllers\Home.php(11): App\Controllers\BaseController->__construct()
+#4 D:\xampp7\htdocs\dashboardpegnew\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 D:\xampp7\htdocs\dashboardpegnew\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 D:\xampp7\htdocs\dashboardpegnew\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\dashboardpegnew\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-21 13:17:11 --> Table 'dashboardpegnew.tbl_instansi_user' doesn't exist
+#0 D:\xampp7\htdocs\dashboardpegnew\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM u...', 0)
+#1 D:\xampp7\htdocs\dashboardpegnew\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 D:\xampp7\htdocs\dashboardpegnew\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 D:\xampp7\htdocs\dashboardpegnew\app\Models\BaseModel.php(64): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...', Array)
+#4 D:\xampp7\htdocs\dashboardpegnew\app\Models\BaseModel.php(232): App\Models\BaseModel->getUserById('1')
+#5 D:\xampp7\htdocs\dashboardpegnew\app\Controllers\Login.php(58): App\Models\BaseModel->checkUser('admin')
+#6 D:\xampp7\htdocs\dashboardpegnew\app\Controllers\Login.php(26): App\Controllers\Login->login()
+#7 D:\xampp7\htdocs\dashboardpegnew\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#8 D:\xampp7\htdocs\dashboardpegnew\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 D:\xampp7\htdocs\dashboardpegnew\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp7\htdocs\dashboardpegnew\index.php(47): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-02-21 13:17:33 --> Table 'dashboardpegnew.tbl_instansi_user' doesn't exist
+#0 D:\xampp7\htdocs\dashboardpegnew\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM u...', 0)
+#1 D:\xampp7\htdocs\dashboardpegnew\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 D:\xampp7\htdocs\dashboardpegnew\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 D:\xampp7\htdocs\dashboardpegnew\app\Models\BaseModel.php(64): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...', Array)
+#4 D:\xampp7\htdocs\dashboardpegnew\app\Models\BaseModel.php(232): App\Models\BaseModel->getUserById('1')
+#5 D:\xampp7\htdocs\dashboardpegnew\app\Controllers\Login.php(58): App\Models\BaseModel->checkUser('admin')
+#6 D:\xampp7\htdocs\dashboardpegnew\app\Controllers\Login.php(26): App\Controllers\Login->login()
+#7 D:\xampp7\htdocs\dashboardpegnew\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#8 D:\xampp7\htdocs\dashboardpegnew\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 D:\xampp7\htdocs\dashboardpegnew\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp7\htdocs\dashboardpegnew\index.php(47): CodeIgniter\CodeIgniter->run()
+#11 {main}

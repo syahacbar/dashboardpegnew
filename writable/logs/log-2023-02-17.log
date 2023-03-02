@@ -1,0 +1,217 @@
+CRITICAL - 2023-02-17 13:52:29 --> Unknown column 'id_user' in 'from clause'
+#0 D:\xampp7\htdocs\dashboardpeg2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM u...', 0)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 D:\xampp7\htdocs\dashboardpeg2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 D:\xampp7\htdocs\dashboardpeg2\app\Models\BaseModel.php(64): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...', Array)
+#4 D:\xampp7\htdocs\dashboardpeg2\app\Models\BaseModel.php(19): App\Models\BaseModel->getUserById('1')
+#5 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\BaseController.php(42): App\Models\BaseModel->__construct()
+#6 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Instansi.php(10): App\Controllers\BaseController->__construct()
+#7 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(809): App\Controllers\Instansi->__construct()
+#8 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#9 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-02-17 13:56:41 --> Unknown column 'ti.id_user' in 'on clause'
+#0 D:\xampp7\htdocs\dashboardpeg2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\xampp7\htdocs\dashboardpeg2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\xampp7\htdocs\dashboardpeg2\app\Models\InstansiModel.php(12): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...')
+#4 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Instansi.php(51): App\Models\InstansiModel->countAllData(' WHERE 1 = 1 ')
+#5 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Instansi->getDataDT()
+#6 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Instansi))
+#7 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-17 13:56:50 --> Unknown column 'ti.id_user' in 'on clause'
+#0 D:\xampp7\htdocs\dashboardpeg2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\xampp7\htdocs\dashboardpeg2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\xampp7\htdocs\dashboardpeg2\app\Models\InstansiModel.php(12): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...')
+#4 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Instansi.php(51): App\Models\InstansiModel->countAllData(' WHERE 1 = 1 ')
+#5 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Instansi->getDataDT()
+#6 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Instansi))
+#7 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-17 13:57:04 --> Unknown column 'ti.id_user' in 'on clause'
+#0 D:\xampp7\htdocs\dashboardpeg2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\xampp7\htdocs\dashboardpeg2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\xampp7\htdocs\dashboardpeg2\app\Models\InstansiModel.php(12): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...')
+#4 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Instansi.php(51): App\Models\InstansiModel->countAllData(' WHERE 1 = 1 ')
+#5 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Instansi->getDataDT()
+#6 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Instansi))
+#7 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-17 13:59:00 --> Unknown column 'ti.id_user' in 'on clause'
+#0 D:\xampp7\htdocs\dashboardpeg2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\xampp7\htdocs\dashboardpeg2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\xampp7\htdocs\dashboardpeg2\app\Models\InstansiModel.php(48): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...')
+#4 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Instansi.php(55): App\Models\InstansiModel->getListData(' WHERE 1 = 1 ')
+#5 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Instansi->getDataDT()
+#6 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Instansi))
+#7 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-17 14:22:39 --> Trying to access array offset on value of type null
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Models\InstansiModel.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\xampp7\\htdoc...', 112, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Instansi.php(161): App\Models\InstansiModel->saveData()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Instansi->edit()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Instansi))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-17 14:23:37 --> Trying to access array offset on value of type null
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Models\InstansiModel.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\xampp7\\htdoc...', 112, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Instansi.php(161): App\Models\InstansiModel->saveData()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Instansi->edit()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Instansi))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-17 14:23:57 --> Trying to access array offset on value of type null
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Models\InstansiModel.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\xampp7\\htdoc...', 112, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Instansi.php(161): App\Models\InstansiModel->saveData()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Instansi->edit()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Instansi))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-17 14:27:43 --> Trying to access array offset on value of type null
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Models\InstansiModel.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\xampp7\\htdoc...', 112, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Instansi.php(161): App\Models\InstansiModel->saveData()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Instansi->edit()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Instansi))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-17 14:27:59 --> Trying to access array offset on value of type null
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Models\InstansiModel.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\xampp7\\htdoc...', 112, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Instansi.php(161): App\Models\InstansiModel->saveData()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Instansi->edit()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Instansi))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-17 14:28:35 --> Trying to access array offset on value of type null
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Models\InstansiModel.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\xampp7\\htdoc...', 112, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Instansi.php(161): App\Models\InstansiModel->saveData()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Instansi->edit()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Instansi))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-17 14:29:01 --> Trying to access array offset on value of type null
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Models\InstansiModel.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\xampp7\\htdoc...', 112, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Instansi.php(161): App\Models\InstansiModel->saveData()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Instansi->edit()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Instansi))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-17 14:29:12 --> Undefined index: id_instansi
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Models\InstansiModel.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 98, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Instansi.php(161): App\Models\InstansiModel->saveData()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Instansi->edit()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Instansi))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-17 14:30:40 --> Trying to access array offset on value of type null
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Models\InstansiModel.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\xampp7\\htdoc...', 112, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Instansi.php(161): App\Models\InstansiModel->saveData()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Instansi->edit()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Instansi))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-17 14:30:59 --> Trying to access array offset on value of type null
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Models\InstansiModel.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\xampp7\\htdoc...', 112, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Instansi.php(161): App\Models\InstansiModel->saveData()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Instansi->edit()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Instansi))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-17 19:06:42 --> Undefined variable: wherewaktuupload
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Models\HomeModel.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 90, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Dashboard2.php(46): App\Models\HomeModel->get_usulankp_by_instansi('da39a3ee5e6b4b0...')
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Dashboard2->index()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard2))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-17 19:09:36 --> Undefined variable: wherewaktuupload
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Models\HomeModel.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 90, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Dashboard2.php(46): App\Models\HomeModel->get_usulankp_by_instansi('da39a3ee5e6b4b0...')
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Dashboard2->index()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard2))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-17 19:12:17 --> Undefined variable: wherewaktuupload
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Models\HomeModel.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 90, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Dashboard2.php(46): App\Models\HomeModel->get_usulankp_by_instansi('da39a3ee5e6b4b0...')
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Dashboard2->index()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard2))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-17 19:13:28 --> Undefined variable: wherewaktuupload
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Models\HomeModel.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 90, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Dashboard2.php(46): App\Models\HomeModel->get_usulankp_by_instansi('da39a3ee5e6b4b0...')
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Dashboard2->index()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard2))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-17 19:14:59 --> Undefined variable: wherewaktuupload
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Models\HomeModel.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 112, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Dashboard2.php(48): App\Models\HomeModel->count_all_usulankp_by_instansi('da39a3ee5e6b4b0...')
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Dashboard2->index()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard2))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-17 19:15:37 --> Undefined variable: wherewaktuupload
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Models\HomeModel.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 137, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Dashboard2.php(49): App\Models\HomeModel->count_usulankp_by_instansi('da39a3ee5e6b4b0...', 'TMS')
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Dashboard2->index()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard2))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-17 19:24:58 --> Undefined index: verified
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Login.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 60, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Login.php(26): App\Controllers\Login->login()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-17 19:28:21 --> sha1() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'sha1() expects ...', 'D:\\xampp7\\htdoc...', 51, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Kenaikanpangkat.php(51): sha1(Array)
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Kenaikanpangkat->getDataDT()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kenaikanpangkat))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-17 19:28:39 --> sha1() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'sha1() expects ...', 'D:\\xampp7\\htdoc...', 51, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Kenaikanpangkat.php(51): sha1(Array)
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Kenaikanpangkat->getDataDT()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kenaikanpangkat))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-17 19:28:48 --> sha1() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'sha1() expects ...', 'D:\\xampp7\\htdoc...', 51, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Kenaikanpangkat.php(51): sha1(Array)
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Kenaikanpangkat->getDataDT()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kenaikanpangkat))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}

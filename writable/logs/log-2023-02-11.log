@@ -1,0 +1,247 @@
+CRITICAL - 2023-02-11 18:57:43 --> Class 'App\Models\InstansiModel' not found
+#0 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(809): App\Controllers\Instansi->__construct()
+#1 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-11 18:59:03 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 D:\xampp7\htdocs\dashboardpeg2\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp7\\htdoc...')
+#1 D:\xampp7\htdocs\dashboardpeg2\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Inst...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Inst...')
+#3 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Instansi.php(12): spl_autoload_call('App\\Models\\Inst...')
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(809): App\Controllers\Instansi->__construct()
+#5 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-11 18:59:11 --> Undefined index: id_instansi
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Instansi.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 35, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Instansi->index()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Instansi))
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-11 18:59:35 --> Undefined variable: prosedurkp
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Views\themes\modern\instansi.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 21, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\View\View.php(210): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\dashboardpeg2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\Common.php(1089): CodeIgniter\View\View->render('themes/modern/i...', Array, true)
+#4 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\BaseController.php(248): view('themes/modern/i...', Array)
+#5 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Instansi.php(42): App\Controllers\BaseController->view('instansi.php', Array)
+#6 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Instansi->index()
+#7 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Instansi))
+#8 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-11 19:00:05 --> Undefined index: id_instansi
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Instansi.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 50, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Instansi->getDataDT()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Instansi))
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-11 19:17:35 --> Undefined variable: id_instansi
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Instansi.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 45, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Instansi->getDataDT()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Instansi))
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-11 19:17:46 --> Undefined variable: id_instansi
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Instansi.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 45, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Instansi->getDataDT()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Instansi))
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-11 19:18:20 --> Undefined variable: id_instansi
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Instansi.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 45, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Instansi->getDataDT()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Instansi))
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-11 19:18:30 --> Undefined variable: id_instansi
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Instansi.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 45, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Instansi->getDataDT()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Instansi))
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-11 19:20:06 --> Undefined index: id_instansi
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Kenaikanpangkat.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 35, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Kenaikanpangkat->index()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kenaikanpangkat))
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-11 19:26:17 --> Undefined index: gambar_instansi
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Instansi.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 59, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Instansi->getDataDT()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Instansi))
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-11 19:26:28 --> Undefined index: gambar_instansi
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Instansi.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 59, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Instansi->getDataDT()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Instansi))
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-11 19:32:21 --> Undefined index: id_instansi
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Kenaikanpangkat.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 35, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Kenaikanpangkat->index()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kenaikanpangkat))
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-11 19:42:20 --> Undefined index: id_instansi
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Kenaikanpangkat.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 35, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Kenaikanpangkat->index()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kenaikanpangkat))
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-11 19:46:32 --> You must set the database table to be used with your query.
+#0 D:\xampp7\htdocs\dashboardpeg2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Instansi.php(36): CodeIgniter\Model->__call('get_all_data', Array)
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Instansi->index()
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Instansi))
+#5 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-11 19:46:50 --> You must set the database table to be used with your query.
+#0 D:\xampp7\htdocs\dashboardpeg2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Instansi.php(36): CodeIgniter\Model->__call('get_all_data', Array)
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Instansi->index()
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Instansi))
+#5 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-11 19:51:56 --> Undefined index: id_instansi
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Kenaikanpangkat.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 35, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Kenaikanpangkat->index()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kenaikanpangkat))
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-11 19:52:43 --> Unknown column 'unit_kerja' in 'field list'
+#0 D:\xampp7\htdocs\dashboardpeg2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 D:\xampp7\htdocs\dashboardpeg2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 D:\xampp7\htdocs\dashboardpeg2\app\Models\KenaikanPangkatModel.php(27): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Kenaikanpangkat.php(41): App\Models\KenaikanPangkatModel->get_satuankerja('b3f0c7f6bb763af...')
+#5 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Kenaikanpangkat->index()
+#6 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kenaikanpangkat))
+#7 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-11 19:53:13 --> Undefined index: id_instansi
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Kenaikanpangkat.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 50, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Kenaikanpangkat->getDataDT()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kenaikanpangkat))
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-11 19:54:03 --> Undefined index: id_instansi
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Kenaikanpangkat.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 50, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Kenaikanpangkat->getDataDT()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kenaikanpangkat))
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-11 19:54:10 --> Undefined index: id_instansi
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Kenaikanpangkat.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 50, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Kenaikanpangkat->getDataDT()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kenaikanpangkat))
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-11 19:55:03 --> Undefined index: id_instansi
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Kenaikanpangkat.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 50, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Kenaikanpangkat->getDataDT()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kenaikanpangkat))
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-11 19:55:17 --> Undefined index: id_instansi
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Kenaikanpangkat.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 50, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Kenaikanpangkat->getDataDT()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kenaikanpangkat))
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-11 19:57:44 --> Undefined index: id_instansi
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Kenaikanpangkat.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 35, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Kenaikanpangkat->index()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kenaikanpangkat))
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-11 19:59:22 --> Undefined index: id_instansi
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Kenaikanpangkat.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 35, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Kenaikanpangkat->index()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kenaikanpangkat))
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-11 19:59:40 --> Undefined index: id_instansi
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Kenaikanpangkat.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 35, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Kenaikanpangkat->index()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kenaikanpangkat))
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-11 20:01:02 --> Undefined index: id_instansi
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Kenaikanpangkat.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 35, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Kenaikanpangkat->index()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kenaikanpangkat))
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-11 20:02:18 --> Undefined index: id_instansi
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Kenaikanpangkat.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 37, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Kenaikanpangkat->index()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kenaikanpangkat))
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-11 20:02:50 --> Undefined index: id_instansi
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Kenaikanpangkat.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 37, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Kenaikanpangkat->index()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kenaikanpangkat))
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-11 20:03:10 --> Undefined index: id_instansi
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Kenaikanpangkat.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 37, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Kenaikanpangkat->index()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kenaikanpangkat))
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-11 20:03:26 --> Undefined property: stdClass::$unit_kerja
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Views\themes\modern\kenaikanpangkat.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp7\\htdoc...', 48, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\View\View.php(210): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\dashboardpeg2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\Common.php(1089): CodeIgniter\View\View->render('themes/modern/k...', Array, true)
+#4 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\BaseController.php(248): view('themes/modern/k...', Array)
+#5 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Kenaikanpangkat.php(44): App\Controllers\BaseController->view('kenaikanpangkat...', Array)
+#6 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Kenaikanpangkat->index()
+#7 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kenaikanpangkat))
+#8 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-11 23:35:54 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH)
+#0 D:\xampp7\htdocs\dashboardpeg2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp7\htdocs\dashboardpeg2\system\Common.php(1089): CodeIgniter\View\View->render('themes/modern/i...', Array, true)
+#2 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\BaseController.php(248): view('themes/modern/i...', Array)
+#3 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Imporkenaikanpangkat.php(37): App\Controllers\BaseController->view('imporkenaikanpa...', Array)
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Imporkenaikanpangkat->index()
+#5 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Imporkenaikanpangkat))
+#6 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}

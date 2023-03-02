@@ -1,0 +1,286 @@
+CRITICAL - 2023-02-18 03:14:49 --> sha1() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'sha1() expects ...', 'D:\\xampp7\\htdoc...', 51, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Kenaikanpangkat.php(51): sha1(Array)
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Kenaikanpangkat->getDataDT()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kenaikanpangkat))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-18 03:15:01 --> sha1() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'sha1() expects ...', 'D:\\xampp7\\htdoc...', 51, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Kenaikanpangkat.php(51): sha1(Array)
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Kenaikanpangkat->getDataDT()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kenaikanpangkat))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-18 03:29:33 --> sha1() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'sha1() expects ...', 'D:\\xampp7\\htdoc...', 51, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Kenaikanpangkat.php(51): sha1(Array)
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Kenaikanpangkat->getDataDT()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kenaikanpangkat))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-18 03:31:59 --> sha1() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'sha1() expects ...', 'D:\\xampp7\\htdoc...', 52, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Kenaikanpangkat.php(52): sha1(Array)
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Kenaikanpangkat->getDataDT()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kenaikanpangkat))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-18 03:35:50 --> sha1() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'sha1() expects ...', 'D:\\xampp7\\htdoc...', 52, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Kenaikanpangkat.php(52): sha1(Array)
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Kenaikanpangkat->getDataDT()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kenaikanpangkat))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-18 03:36:12 --> sha1() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'sha1() expects ...', 'D:\\xampp7\\htdoc...', 52, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Kenaikanpangkat.php(52): sha1(Array)
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Kenaikanpangkat->getDataDT()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kenaikanpangkat))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-18 03:37:04 --> syntax error, unexpected ';', expecting ')'
+#0 D:\xampp7\htdocs\dashboardpeg2\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('kenaikanpangkat')
+#1 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('kenaikanpangkat')
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-18 03:41:09 --> Trying to access array offset on value of type null
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Models\InstansiModel.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\xampp7\\htdoc...', 112, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Instansi.php(161): App\Models\InstansiModel->saveData()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Instansi->edit()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Instansi))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-18 03:41:46 --> Trying to access array offset on value of type null
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Models\InstansiModel.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\xampp7\\htdoc...', 112, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Instansi.php(100): App\Models\InstansiModel->saveData()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Instansi->add()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Instansi))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-18 03:43:29 --> Trying to access array offset on value of type null
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Models\InstansiModel.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\xampp7\\htdoc...', 112, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Instansi.php(161): App\Models\InstansiModel->saveData()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Instansi->edit()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Instansi))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-18 03:47:16 --> Trying to access array offset on value of type null
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Models\InstansiModel.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\xampp7\\htdoc...', 112, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Instansi.php(161): App\Models\InstansiModel->saveData()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Instansi->edit()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Instansi))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-18 03:47:44 --> Trying to access array offset on value of type null
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Models\InstansiModel.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\xampp7\\htdoc...', 112, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Instansi.php(161): App\Models\InstansiModel->saveData()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Instansi->edit()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Instansi))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-18 03:47:58 --> Duplicate entry '6-22' for key 'PRIMARY'
+#0 D:\xampp7\htdocs\dashboardpeg2\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp7\htdocs\dashboardpeg2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp7\htdocs\dashboardpeg2\system\Database\BaseBuilder.php(1648): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', NULL, false)
+#4 D:\xampp7\htdocs\dashboardpeg2\app\Models\InstansiModel.php(156): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#5 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Instansi.php(161): App\Models\InstansiModel->saveData()
+#6 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Instansi->edit()
+#7 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Instansi))
+#8 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-18 05:15:18 --> strtoupper() expects parameter 1 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strtoupper() ex...', 'D:\\xampp7\\htdoc...', 148, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Models\ImpordataModel.php(148): strtoupper(Object(DateTime))
+#2 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Imporpindahinstansi.php(30): App\Models\ImpordataModel->imporkenaikanpangkat()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Imporpindahinstansi->index()
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Imporpindahinstansi))
+#5 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-18 05:16:00 --> strtoupper() expects parameter 1 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strtoupper() ex...', 'D:\\xampp7\\htdoc...', 248, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Models\ImpordataModel.php(248): strtoupper(Object(DateTime))
+#2 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Imporpindahinstansi.php(30): App\Models\ImpordataModel->imporpindahinstansi()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Imporpindahinstansi->index()
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Imporpindahinstansi))
+#5 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-18 05:17:24 --> Object of class DateTime could not be converted to string
+#0 D:\xampp7\htdocs\dashboardpeg2\system\Database\Query.php(318): strtr('INSERT INTO `tb...', Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `tb...', Array)
+#2 D:\xampp7\htdocs\dashboardpeg2\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 D:\xampp7\htdocs\dashboardpeg2\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#5 D:\xampp7\htdocs\dashboardpeg2\app\Models\ImpordataModel.php(259): CodeIgniter\Database\BaseBuilder->insert(Array)
+#6 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Imporpindahinstansi.php(30): App\Models\ImpordataModel->imporpindahinstansi()
+#7 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Imporpindahinstansi->index()
+#8 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Imporpindahinstansi))
+#9 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-02-18 05:21:52 --> Unknown column 'id_instansi' in 'field list'
+#0 D:\xampp7\htdocs\dashboardpeg2\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp7\htdocs\dashboardpeg2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp7\htdocs\dashboardpeg2\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp7\htdocs\dashboardpeg2\app\Models\ImpordataModel.php(259): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Imporpindahinstansi.php(30): App\Models\ImpordataModel->imporpindahinstansi()
+#6 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Imporpindahinstansi->index()
+#7 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Imporpindahinstansi))
+#8 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-18 05:23:10 --> Undefined variable: message_source
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Helpers\util_helper.php(205): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 205, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Views\themes\modern\imporpindahinstansi.php(5): show_message(Array)
+#2 D:\xampp7\htdocs\dashboardpeg2\system\View\View.php(210): include('D:\\xampp7\\htdoc...')
+#3 D:\xampp7\htdocs\dashboardpeg2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 D:\xampp7\htdocs\dashboardpeg2\system\Common.php(1089): CodeIgniter\View\View->render('themes/modern/i...', Array, true)
+#5 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\BaseController.php(248): view('themes/modern/i...', Array)
+#6 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Imporpindahinstansi.php(37): App\Controllers\BaseController->view('imporpindahinst...', Array)
+#7 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Imporpindahinstansi->index()
+#8 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Imporpindahinstansi))
+#9 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-02-18 05:23:53 --> Duplicate entry '0' for key 'PRIMARY'
+#0 D:\xampp7\htdocs\dashboardpeg2\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp7\htdocs\dashboardpeg2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp7\htdocs\dashboardpeg2\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp7\htdocs\dashboardpeg2\app\Models\ImpordataModel.php(259): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Imporpindahinstansi.php(30): App\Models\ImpordataModel->imporpindahinstansi()
+#6 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Imporpindahinstansi->index()
+#7 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Imporpindahinstansi))
+#8 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-18 05:50:45 --> syntax error, unexpected 'tbl_pindah_instansi' (T_STRING)
+#0 D:\xampp7\htdocs\dashboardpeg2\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp7\\htdoc...')
+#1 D:\xampp7\htdocs\dashboardpeg2\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Pind...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Pind...')
+#3 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Pindahinstansi.php(12): spl_autoload_call('App\\Models\\Pind...')
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(809): App\Controllers\Pindahinstansi->__construct()
+#5 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-18 05:51:33 --> Undefined index: searchInstansiAsal
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Models\PindahInstansiModel.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 42, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Pindahinstansi.php(54): App\Models\PindahInstansiModel->getListData(' WHERE 1 = 1 ', '77de68daecd823b...')
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Pindahinstansi->getDataDT()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pindahinstansi))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-18 05:51:49 --> Undefined index: searchInstansiAsal
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Models\PindahInstansiModel.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 42, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Pindahinstansi.php(54): App\Models\PindahInstansiModel->getListData(' WHERE 1 = 1 ', '77de68daecd823b...')
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Pindahinstansi->getDataDT()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pindahinstansi))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-18 05:55:29 --> Undefined index: searchInstansiAsal
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Models\PindahInstansiModel.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 42, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Pindahinstansi.php(54): App\Models\PindahInstansiModel->getListData(' WHERE 1 = 1 ', '77de68daecd823b...')
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Pindahinstansi->getDataDT()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pindahinstansi))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-18 05:58:45 --> Undefined index: pangkat
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Pindahinstansi.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 64, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Pindahinstansi->getDataDT()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pindahinstansi))
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-18 10:21:17 --> Invalid file: themes/modern/imporpensiun.php
+#0 D:\xampp7\htdocs\dashboardpeg2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/modern/i...')
+#1 D:\xampp7\htdocs\dashboardpeg2\system\Common.php(1089): CodeIgniter\View\View->render('themes/modern/i...', Array, true)
+#2 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\BaseController.php(248): view('themes/modern/i...', Array)
+#3 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Imporpensiun.php(37): App\Controllers\BaseController->view('imporpensiun.ph...', Array)
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Imporpensiun->index()
+#5 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Imporpensiun))
+#6 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-18 10:34:51 --> Class 'App\Models\PensiunModel' not found
+#0 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(809): App\Controllers\Pensiun->__construct()
+#1 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-18 10:49:52 --> Class 'App\Models\PensiunModel' not found
+#0 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(809): App\Controllers\Pensiun->__construct()
+#1 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-18 10:51:58 --> Undefined index: searchInstansiAsal
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Models\PensiunModel.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 54, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Pensiun.php(56): App\Models\PensiunModel->getListData(' WHERE 1 = 1 ', '77de68daecd823b...')
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Pensiun->getDataDT()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pensiun))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-18 10:52:08 --> Undefined index: searchInstansiAsal
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Models\PensiunModel.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 54, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Pensiun.php(56): App\Models\PensiunModel->getListData(' WHERE 1 = 1 ', '77de68daecd823b...')
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Pensiun->getDataDT()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pensiun))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-18 10:52:12 --> Undefined index: searchInstansiAsal
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Models\PensiunModel.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 54, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Pensiun.php(56): App\Models\PensiunModel->getListData(' WHERE 1 = 1 ', '77de68daecd823b...')
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Pensiun->getDataDT()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pensiun))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-18 10:52:17 --> Undefined index: searchInstansiAsal
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Models\PensiunModel.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 54, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Pensiun.php(56): App\Models\PensiunModel->getListData(' WHERE 1 = 1 ', '77de68daecd823b...')
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Pensiun->getDataDT()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pensiun))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-18 10:54:02 --> Undefined index: searchInstansiAsal
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Models\PensiunModel.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp7\\htdoc...', 54, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Pensiun.php(56): App\Models\PensiunModel->getListData(' WHERE 1 = 1 ', '77de68daecd823b...')
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Pensiun->getDataDT()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pensiun))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-18 11:08:59 --> Undefined variable: searchInstansiAsal
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Models\PensiunModel.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 69, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Pensiun.php(56): App\Models\PensiunModel->getListData(' WHERE 1 = 1 ', '77de68daecd823b...')
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Pensiun->getDataDT()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pensiun))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}

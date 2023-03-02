@@ -1,0 +1,139 @@
+CRITICAL - 2023-02-06 03:24:45 --> Undefined property: stdClass::$kabupaten
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Views\themes\modern\dashboard1.php(158): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp7\\htdoc...', 158, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\View\View.php(210): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\dashboardpeg2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\Common.php(1089): CodeIgniter\View\View->render('themes/modern/d...', Array, true)
+#4 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\BaseController.php(247): view('themes/modern/d...', Array)
+#5 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Dashboard1.php(32): App\Controllers\BaseController->view('dashboard1.php', Array)
+#6 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Dashboard1->index()
+#7 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard1))
+#8 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-06 03:41:16 --> Call to undefined function format_ribuan()
+#0 D:\xampp7\htdocs\dashboardpeg2\system\View\View.php(210): include()
+#1 D:\xampp7\htdocs\dashboardpeg2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\Common.php(1089): CodeIgniter\View\View->render('themes/modern/d...', Array, true)
+#3 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\BaseController.php(247): view('themes/modern/d...', Array)
+#4 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Dashboard1.php(32): App\Controllers\BaseController->view('dashboard1.php', Array)
+#5 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Dashboard1->index()
+#6 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard1))
+#7 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-06 04:03:08 --> You must set the database table to be used with your query.
+#0 D:\xampp7\htdocs\dashboardpeg2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Dashboard1.php(31): CodeIgniter\Model->__call('count_instansi', Array)
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Dashboard1->index()
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard1))
+#5 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-06 04:03:27 --> You must set the database table to be used with your query.
+#0 D:\xampp7\htdocs\dashboardpeg2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Dashboard1.php(31): CodeIgniter\Model->__call('count_instansi', Array)
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Dashboard1->index()
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard1))
+#5 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-06 04:47:41 --> You must set the database table to be used with your query.
+#0 D:\xampp7\htdocs\dashboardpeg2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Dashboard.php(30): CodeIgniter\Model->__call('getListTahun', Array)
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-06 08:49:41 --> You must set the database table to be used with your query.
+#0 D:\xampp7\htdocs\dashboardpeg2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Dashboard.php(30): CodeIgniter\Model->__call('getListTahun', Array)
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-06 09:27:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'COUNT(tp.id_instansi) AS jumlah_pegawai FROM tbl_pegawai tp  WHERE SHA1(tp.id...' at line 1
+#0 D:\xampp7\htdocs\dashboardpeg2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tp.unit_...', 0)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tp.unit_...')
+#2 D:\xampp7\htdocs\dashboardpeg2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tp.unit_...')
+#3 D:\xampp7\htdocs\dashboardpeg2\app\Models\DashboardModel.php(19): CodeIgniter\Database\BaseConnection->query('SELECT tp.unit_...')
+#4 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Dashboard1.php(34): App\Models\DashboardModel->count_instansi('b6589fc6ab0dc82...')
+#5 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Dashboard1->index()
+#6 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard1))
+#7 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-06 09:33:55 --> Undefined property: stdClass::$instansi
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Views\themes\modern\dashboard1.php(152): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp7\\htdoc...', 152, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\View\View.php(210): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\dashboardpeg2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\Common.php(1089): CodeIgniter\View\View->render('themes/modern/d...', Array, true)
+#4 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\BaseController.php(247): view('themes/modern/d...', Array)
+#5 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Dashboard1.php(40): App\Controllers\BaseController->view('dashboard1.php', Array)
+#6 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Dashboard1->index()
+#7 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard1))
+#8 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-06 09:43:33 --> You must set the database table to be used with your query.
+#0 D:\xampp7\htdocs\dashboardpeg2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Dashboard.php(30): CodeIgniter\Model->__call('getListTahun', Array)
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-06 09:43:44 --> You must set the database table to be used with your query.
+#0 D:\xampp7\htdocs\dashboardpeg2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Dashboard.php(30): CodeIgniter\Model->__call('getListTahun', Array)
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-06 09:50:26 --> Undefined variable: list_tahun
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Views\themes\modern\dashboard1.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 132, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\View\View.php(210): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\dashboardpeg2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\Common.php(1089): CodeIgniter\View\View->render('themes/modern/d...', Array, true)
+#4 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\BaseController.php(247): view('themes/modern/d...', Array)
+#5 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Dashboard1.php(37): App\Controllers\BaseController->view('dashboard1.php', Array)
+#6 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Dashboard1->index()
+#7 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard1))
+#8 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-06 10:53:13 --> You must set the database table to be used with your query.
+#0 D:\xampp7\htdocs\dashboardpeg2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Dashboard.php(30): CodeIgniter\Model->__call('getListTahun', Array)
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-06 10:53:59 --> You must set the database table to be used with your query.
+#0 D:\xampp7\htdocs\dashboardpeg2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Dashboard.php(30): CodeIgniter\Model->__call('getListTahun', Array)
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-06 10:54:12 --> You must set the database table to be used with your query.
+#0 D:\xampp7\htdocs\dashboardpeg2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Dashboard.php(30): CodeIgniter\Model->__call('getListTahun', Array)
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}

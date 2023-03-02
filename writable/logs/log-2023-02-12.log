@@ -1,0 +1,264 @@
+CRITICAL - 2023-02-12 03:00:38 --> No readers supporting the given type: xlsx_2023-02-12 03:37
+#0 D:\xampp7\htdocs\dashboardpeg2\app\ThirdParty\Spout\src\Spout\Reader\Common\Creator\ReaderFactory.php(42): Box\Spout\Reader\Common\Creator\ReaderFactory::createFromType('xlsx_2023-02-12...')
+#1 D:\xampp7\htdocs\dashboardpeg2\app\ThirdParty\Spout\src\Spout\Reader\Common\Creator\ReaderEntityFactory.php(24): Box\Spout\Reader\Common\Creator\ReaderFactory::createFromFile('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\dashboardpeg2\app\Models\ImpordataModel.php(133): Box\Spout\Reader\Common\Creator\ReaderEntityFactory::createReaderFromFile('D:\\xampp7\\htdoc...')
+#3 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Imporkenaikanpangkat.php(30): App\Models\ImpordataModel->imporkenaikanpangkat()
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Imporkenaikanpangkat->index()
+#5 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Imporkenaikanpangkat))
+#6 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-12 03:04:05 --> No readers supporting the given type: xlsx_2023-02-12 03:05
+#0 D:\xampp7\htdocs\dashboardpeg2\app\ThirdParty\Spout\src\Spout\Reader\Common\Creator\ReaderFactory.php(42): Box\Spout\Reader\Common\Creator\ReaderFactory::createFromType('xlsx_2023-02-12...')
+#1 D:\xampp7\htdocs\dashboardpeg2\app\ThirdParty\Spout\src\Spout\Reader\Common\Creator\ReaderEntityFactory.php(24): Box\Spout\Reader\Common\Creator\ReaderFactory::createFromFile('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\dashboardpeg2\app\Models\ImpordataModel.php(133): Box\Spout\Reader\Common\Creator\ReaderEntityFactory::createReaderFromFile('D:\\xampp7\\htdoc...')
+#3 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Imporkenaikanpangkat.php(30): App\Models\ImpordataModel->imporkenaikanpangkat()
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Imporkenaikanpangkat->index()
+#5 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Imporkenaikanpangkat))
+#6 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-12 03:04:18 --> syntax error, unexpected '$new_name' (T_VARIABLE), expecting '{'
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Models\ImpordataModel.php(13): helper(Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Imporkenaikanpangkat.php(15): App\Models\ImpordataModel->__construct()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(809): App\Controllers\Imporkenaikanpangkat->__construct()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-12 03:04:24 --> syntax error, unexpected '$new_name' (T_VARIABLE), expecting '{'
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Models\ImpordataModel.php(13): helper(Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Imporkenaikanpangkat.php(15): App\Models\ImpordataModel->__construct()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(809): App\Controllers\Imporkenaikanpangkat->__construct()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-12 03:23:45 --> Trying to get property 'waktu_upload' of non-object
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Models\KenaikanPangkatModel.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp7\\htdoc...', 41, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Models\KenaikanPangkatModel.php(100): App\Models\KenaikanPangkatModel->get_active_data()
+#2 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Kenaikanpangkat.php(57): App\Models\KenaikanPangkatModel->getListData(' WHERE 1 = 1 ', '77de68daecd823b...')
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Kenaikanpangkat->getDataDT()
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kenaikanpangkat))
+#5 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-12 03:23:54 --> Trying to get property 'waktu_upload' of non-object
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Models\KenaikanPangkatModel.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp7\\htdoc...', 41, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Models\KenaikanPangkatModel.php(100): App\Models\KenaikanPangkatModel->get_active_data()
+#2 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Kenaikanpangkat.php(57): App\Models\KenaikanPangkatModel->getListData(' WHERE 1 = 1 ', '77de68daecd823b...')
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Kenaikanpangkat->getDataDT()
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kenaikanpangkat))
+#5 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-12 03:24:53 --> Trying to get property 'waktu_upload' of non-object
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Models\KenaikanPangkatModel.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp7\\htdoc...', 102, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Kenaikanpangkat.php(57): App\Models\KenaikanPangkatModel->getListData(' WHERE 1 = 1 ', '77de68daecd823b...')
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Kenaikanpangkat->getDataDT()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kenaikanpangkat))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-12 03:29:28 --> Trying to get property 'waktu_upload' of non-object
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Models\KenaikanPangkatModel.php(103): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp7\\htdoc...', 103, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Kenaikanpangkat.php(57): App\Models\KenaikanPangkatModel->getListData(' WHERE 1 = 1 ', '77de68daecd823b...')
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Kenaikanpangkat->getDataDT()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kenaikanpangkat))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-12 03:30:32 --> Trying to get property 'waktu_upload' of non-object
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Models\KenaikanPangkatModel.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp7\\htdoc...', 41, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Models\KenaikanPangkatModel.php(101): App\Models\KenaikanPangkatModel->get_active_data()
+#2 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Kenaikanpangkat.php(57): App\Models\KenaikanPangkatModel->getListData(' WHERE 1 = 1 ', '77de68daecd823b...')
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Kenaikanpangkat->getDataDT()
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kenaikanpangkat))
+#5 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-12 03:31:50 --> Trying to get property 'waktu_upload' of non-object
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Models\KenaikanPangkatModel.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp7\\htdoc...', 41, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Models\KenaikanPangkatModel.php(101): App\Models\KenaikanPangkatModel->get_active_data()
+#2 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Kenaikanpangkat.php(57): App\Models\KenaikanPangkatModel->getListData(' WHERE 1 = 1 ', '77de68daecd823b...')
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Kenaikanpangkat->getDataDT()
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kenaikanpangkat))
+#5 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-12 03:33:05 --> Undefined variable: sql
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Models\KenaikanPangkatModel.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 101, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Kenaikanpangkat.php(57): App\Models\KenaikanPangkatModel->getListData(' WHERE 1 = 1 ', '77de68daecd823b...')
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Kenaikanpangkat->getDataDT()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kenaikanpangkat))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-12 03:33:21 --> Undefined variable: sql
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Models\KenaikanPangkatModel.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 101, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Kenaikanpangkat.php(57): App\Models\KenaikanPangkatModel->getListData(' WHERE 1 = 1 ', '77de68daecd823b...')
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Kenaikanpangkat->getDataDT()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kenaikanpangkat))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-12 03:35:26 --> You must set the database table to be used with your query.
+#0 D:\xampp7\htdocs\dashboardpeg2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\Model.php(693): CodeIgniter\Model->builder()
+#2 D:\xampp7\htdocs\dashboardpeg2\app\Models\KenaikanPangkatModel.php(100): CodeIgniter\Model->__get('get_active_data')
+#3 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Kenaikanpangkat.php(57): App\Models\KenaikanPangkatModel->getListData(' WHERE 1 = 1 ', '77de68daecd823b...')
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Kenaikanpangkat->getDataDT()
+#5 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kenaikanpangkat))
+#6 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-12 03:38:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '"77de68daecd823babbb58edb1c8e14d7106e83bb' at line 1
+#0 D:\xampp7\htdocs\dashboardpeg2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM t...', 0)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM t...')
+#2 D:\xampp7\htdocs\dashboardpeg2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM t...')
+#3 D:\xampp7\htdocs\dashboardpeg2\app\Models\KenaikanPangkatModel.php(40): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#4 D:\xampp7\htdocs\dashboardpeg2\app\Models\KenaikanPangkatModel.php(100): App\Models\KenaikanPangkatModel->get_active_data('77de68daecd823b...')
+#5 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Kenaikanpangkat.php(57): App\Models\KenaikanPangkatModel->getListData(' WHERE 1 = 1 ', '77de68daecd823b...')
+#6 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Kenaikanpangkat->getDataDT()
+#7 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kenaikanpangkat))
+#8 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-12 03:38:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '"77de68daecd823babbb58edb1c8e14d7106e83bb' at line 1
+#0 D:\xampp7\htdocs\dashboardpeg2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM t...', 0)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM t...')
+#2 D:\xampp7\htdocs\dashboardpeg2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM t...')
+#3 D:\xampp7\htdocs\dashboardpeg2\app\Models\KenaikanPangkatModel.php(40): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#4 D:\xampp7\htdocs\dashboardpeg2\app\Models\KenaikanPangkatModel.php(100): App\Models\KenaikanPangkatModel->get_active_data('77de68daecd823b...')
+#5 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Kenaikanpangkat.php(57): App\Models\KenaikanPangkatModel->getListData(' WHERE 1 = 1 ', '77de68daecd823b...')
+#6 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Kenaikanpangkat->getDataDT()
+#7 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kenaikanpangkat))
+#8 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-12 03:51:30 --> Undefined variable: data_db
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Models\ImpordataModel.php(209): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 209, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Imporkenaikanpangkat.php(42): App\Models\ImpordataModel->update_status_histoty()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Imporkenaikanpangkat->statusaktif()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Imporkenaikanpangkat))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-12 03:53:13 --> Too few arguments to function App\Models\ImpordataModel::update_status_histoty(), 0 passed in D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Imporkenaikanpangkat.php on line 42 and exactly 1 expected
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Imporkenaikanpangkat.php(42): App\Models\ImpordataModel->update_status_histoty()
+#1 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Imporkenaikanpangkat->statusaktif()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Imporkenaikanpangkat))
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-12 04:00:48 --> Undefined variable: data_update
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Models\ImpordataModel.php(217): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 217, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Imporkenaikanpangkat.php(42): App\Models\ImpordataModel->update_status_histoty()
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Imporkenaikanpangkat->statusaktif()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Imporkenaikanpangkat))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-12 10:42:49 --> Trying to access array offset on value of type null
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Models\KenaikanPangkatModel.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\xampp7\\htdoc...', 40, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Models\KenaikanPangkatModel.php(87): App\Models\KenaikanPangkatModel->get_active_data('77de68daecd823b...')
+#2 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Kenaikanpangkat.php(57): App\Models\KenaikanPangkatModel->getListData(' WHERE 1 = 1 ', '77de68daecd823b...')
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Kenaikanpangkat->getDataDT()
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kenaikanpangkat))
+#5 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-12 10:46:54 --> Array to string conversion
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Models\KenaikanPangkatModel.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\xampp7\\htdoc...', 90, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Kenaikanpangkat.php(57): App\Models\KenaikanPangkatModel->getListData(' WHERE 1 = 1 ', '77de68daecd823b...')
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Kenaikanpangkat->getDataDT()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kenaikanpangkat))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-12 10:48:14 --> Invalid argument supplied for foreach()
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Models\KenaikanPangkatModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\xampp7\\htdoc...', 89, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Kenaikanpangkat.php(57): App\Models\KenaikanPangkatModel->getListData(' WHERE 1 = 1 ', '77de68daecd823b...')
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Kenaikanpangkat->getDataDT()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kenaikanpangkat))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-12 10:57:52 --> Undefined variable: wu_arr
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Models\KenaikanPangkatModel.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 93, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Kenaikanpangkat.php(57): App\Models\KenaikanPangkatModel->getListData(' WHERE 1 = 1  A...', '77de68daecd823b...')
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Kenaikanpangkat->getDataDT()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kenaikanpangkat))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-12 10:58:43 --> Array to string conversion
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Models\KenaikanPangkatModel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\xampp7\\htdoc...', 94, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Kenaikanpangkat.php(57): App\Models\KenaikanPangkatModel->getListData(' WHERE 1 = 1  A...', '77de68daecd823b...')
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Kenaikanpangkat->getDataDT()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kenaikanpangkat))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-12 11:01:14 --> implode(): Invalid arguments passed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode(): Inva...', 'D:\\xampp7\\htdoc...', 96, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Models\KenaikanPangkatModel.php(96): implode(' OR ', 'waktu_update="2...')
+#2 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Kenaikanpangkat.php(57): App\Models\KenaikanPangkatModel->getListData(' WHERE 1 = 1  A...', '77de68daecd823b...')
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Kenaikanpangkat->getDataDT()
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kenaikanpangkat))
+#5 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-12 11:12:06 --> Undefined variable: count_usulan_kp_by_status_MS
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Views\themes\modern\dashboard2.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 14, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\View\View.php(210): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\dashboardpeg2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\Common.php(1089): CodeIgniter\View\View->render('themes/modern/d...', Array, true)
+#4 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\BaseController.php(248): view('themes/modern/d...', Array)
+#5 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Dashboard2.php(57): App\Controllers\BaseController->view('dashboard2.php', Array)
+#6 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Dashboard2->index()
+#7 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard2))
+#8 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-12 11:14:03 --> Undefined variable: totalukpDalamProses
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Views\themes\modern\dashboard2.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 57, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\View\View.php(210): include('D:\\xampp7\\htdoc...')
+#2 D:\xampp7\htdocs\dashboardpeg2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\Common.php(1089): CodeIgniter\View\View->render('themes/modern/d...', Array, true)
+#4 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\BaseController.php(248): view('themes/modern/d...', Array)
+#5 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Dashboard2.php(57): App\Controllers\BaseController->view('dashboard2.php', Array)
+#6 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Dashboard2->index()
+#7 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard2))
+#8 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-12 11:21:47 --> Undefined variable: wherewaktuupload
+#0 D:\xampp7\htdocs\dashboardpeg2\app\Models\HomeModel.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp7\\htdoc...', 105, Array)
+#1 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Dashboard2.php(49): App\Models\HomeModel->count_usulankp_by_instansi('77de68daecd823b...', 'TMS')
+#2 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Dashboard2->index()
+#3 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard2))
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-12 11:51:20 --> syntax error, unexpected ''.$wu->waktu_upload.'' (T_CONSTANT_ENCAPSED_STRING)
+#0 D:\xampp7\htdocs\dashboardpeg2\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp7\\htdoc...')
+#1 D:\xampp7\htdocs\dashboardpeg2\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Home...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Home...')
+#3 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Dashboard2.php(9): spl_autoload_call('App\\Models\\Home...')
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(809): App\Controllers\Dashboard2->__construct()
+#5 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-12 11:56:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'waktu_update IN ("2023-02-12 03:16:10,2023-02-12 03:16:26")' at line 1
+#0 D:\xampp7\htdocs\dashboardpeg2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(tk...', 0)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(tk...')
+#2 D:\xampp7\htdocs\dashboardpeg2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(tk...')
+#3 D:\xampp7\htdocs\dashboardpeg2\app\Models\HomeModel.php(111): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(tk...')
+#4 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Dashboard2.php(48): App\Models\HomeModel->count_all_usulankp_by_instansi('77de68daecd823b...')
+#5 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Dashboard2->index()
+#6 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard2))
+#7 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#9 {main}

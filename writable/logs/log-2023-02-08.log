@@ -1,0 +1,21 @@
+CRITICAL - 2023-02-08 14:16:58 --> syntax error, unexpected ''jabatan'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 D:\xampp7\htdocs\dashboardpeg2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp7\htdocs\dashboardpeg2\system\Common.php(1089): CodeIgniter\View\View->render('themes/modern/k...', Array, true)
+#2 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\BaseController.php(247): view('themes/modern/k...', Array)
+#3 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Kenaikanpangkat.php(41): App\Controllers\BaseController->view('kenaikanpangkat...', Array)
+#4 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Kenaikanpangkat->index()
+#5 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kenaikanpangkat))
+#6 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-08 17:38:36 --> Unknown column 'unit_keja' in 'field list'
+#0 D:\xampp7\htdocs\dashboardpeg2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 D:\xampp7\htdocs\dashboardpeg2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 D:\xampp7\htdocs\dashboardpeg2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 D:\xampp7\htdocs\dashboardpeg2\app\Models\KenaikanPangkatModel.php(27): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...')
+#4 D:\xampp7\htdocs\dashboardpeg2\app\Controllers\Kenaikanpangkat.php(41): App\Models\KenaikanPangkatModel->get_satuankerja('77de68daecd823b...')
+#5 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(832): App\Controllers\Kenaikanpangkat->index()
+#6 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kenaikanpangkat))
+#7 D:\xampp7\htdocs\dashboardpeg2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp7\htdocs\dashboardpeg2\index.php(47): CodeIgniter\CodeIgniter->run()
+#9 {main}
