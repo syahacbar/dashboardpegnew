@@ -265,7 +265,7 @@
 							<tbody>
 							<tr>
 								<td colspan="2">Sudah Proses Validasi</td>
-								<?php $totalukpSudahProses = $totalukpTMS->countstatus + $totalukpBMS->countstatus + $totalukpMS->countstatus; ?>
+								<?php $totalukpSudahProses = $totalukpTMS->countstatus + $totalukpBTS->countstatus + $totalukpMS->countstatus; ?>
 								<td style="text-align: center;"><?php echo $totalukpSudahProses; ?></td>
 							</tr>
 							<tr>
@@ -275,8 +275,8 @@
 							</tr>
 							<tr>
 								<td>-</td>
-								<td>BMS</td>
-								<td style="text-align: center;"><?php echo $totalukpBMS->countstatus; ?></td>
+								<td>BTS</td>
+								<td style="text-align: center;"><?php echo $totalukpBTS->countstatus; ?></td>
 							</tr>
 							<tr>
 								<td>-</td>
@@ -330,7 +330,7 @@
 							<tbody>
 							<tr>
 								<td colspan="2">Sudah Proses Validasi</td>
-								<?php $totalpiSudahProses = $totalpiTMS->countstatus + $totalpiBMS->countstatus + $totalpiMS->countstatus; ?>
+								<?php $totalpiSudahProses = $totalpiTMS->countstatus + $totalpiBTS->countstatus + $totalpiMS->countstatus; ?>
 								<td style="text-align: center;"><?php echo $totalpiSudahProses; ?></td>
 							</tr>
 							<tr>
@@ -340,8 +340,8 @@
 							</tr>
 							<tr>
 								<td>-</td>
-								<td>BMS</td>
-								<td style="text-align: center;"><?php echo $totalpiBMS->countstatus; ?></td>
+								<td>BTS</td>
+								<td style="text-align: center;"><?php echo $totalpiBTS->countstatus; ?></td>
 							</tr>
 							<tr>
 								<td>-</td>
@@ -395,7 +395,7 @@
 							<tbody>
 							<tr>
 								<td colspan="2">Sudah Proses Validasi</td>
-								<?php $totalpensiunSudahProses = $totalpensiunTMS->countstatus + $totalpensiunBMS->countstatus + $totalpensiunMS->countstatus; ?>
+								<?php $totalpensiunSudahProses = $totalpensiunTMS->countstatus + $totalpensiunBTS->countstatus + $totalpensiunMS->countstatus; ?>
 								<td style="text-align: center;"><?php echo $totalpensiunSudahProses; ?></td>
 							</tr>
 							<tr>
@@ -405,8 +405,8 @@
 							</tr>
 							<tr>
 								<td>-</td>
-								<td>BMS</td>
-								<td style="text-align: center;"><?php echo $totalpensiunBMS->countstatus; ?></td>
+								<td>BTS</td>
+								<td style="text-align: center;"><?php echo $totalpensiunBTS->countstatus; ?></td>
 							</tr>
 							<tr>
 								<td>-</td>

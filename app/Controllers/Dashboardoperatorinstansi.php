@@ -50,19 +50,19 @@ class Dashboardoperatorinstansi extends BaseController
 		//untuk kenaikan pangkat
 		$this->data['totalukp'] = $this->model->count_all_usulankp_by_instansi($id_instansi);
 		$this->data['totalukpTMS'] = $this->model->count_usulankp_by_instansi($id_instansi,'TMS');
-		$this->data['totalukpBMS'] = $this->model->count_usulankp_by_instansi($id_instansi,'BMS');
+		$this->data['totalukpBTS'] = $this->model->count_usulankp_by_instansi($id_instansi,'BTS');
 		$this->data['totalukpMS'] = $this->model->count_usulankp_by_instansi($id_instansi,'MS');
 		$this->data['totalukpDalamProses'] = $this->model->count_usulankp_by_instansi($id_instansi,'DALAM PROSES VALIDASI');
 		//untuk pindah instansi
 		$this->data['totalpi'] = $this->model->count_all_usulanpi_by_instansi($id_instansi);
 		$this->data['totalpiTMS'] = $this->model->count_usulanpi_by_instansi($id_instansi,'TMS');
-		$this->data['totalpiBMS'] = $this->model->count_usulanpi_by_instansi($id_instansi,'BMS');
+		$this->data['totalpiBTS'] = $this->model->count_usulanpi_by_instansi($id_instansi,'BTS');
 		$this->data['totalpiMS'] = $this->model->count_usulanpi_by_instansi($id_instansi,'MS');
 		$this->data['totalpiDalamProses'] = $this->model->count_usulanpi_by_instansi($id_instansi,'DALAM PROSES VALIDASI');
 		//untuk pensiun
 		$this->data['totalpensiun'] = $this->model->count_all_usulanpensiun_by_instansi($id_instansi);
 		$this->data['totalpensiunTMS'] = $this->model->count_usulanpensiun_by_instansi($id_instansi,'TMS');
-		$this->data['totalpensiunBMS'] = $this->model->count_usulanpensiun_by_instansi($id_instansi,'BMS');
+		$this->data['totalpensiunBTS'] = $this->model->count_usulanpensiun_by_instansi($id_instansi,'BTS');
 		$this->data['totalpensiunMS'] = $this->model->count_usulanpensiun_by_instansi($id_instansi,'MS');
 		$this->data['totalpensiunDalamProses'] = $this->model->count_usulanpensiun_by_instansi($id_instansi,'DALAM PROSES VALIDASI');
 		$this->view('dashboardoperatorinstansi.php', $this->data);
