@@ -1,10 +1,4 @@
 <?php 
-/**
-*	App Name	: Admin Template Dashboard Codeigniter 4	
-*	Developed by: Agus Prawoto Hadi
-*	Website		: https://jagowebdev.com
-*	Year		: 2020-2022
-*/
 
 namespace App\Controllers;
 

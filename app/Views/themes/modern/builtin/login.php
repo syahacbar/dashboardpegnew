@@ -49,12 +49,6 @@
 		<?= csrf_formfield() ?>
 	</div>
 </div>
-<div class="card-footer">
-	<p>Lupa Password? <a href="<?=$config->baseURL?>recovery">Request reset password</a></p>
-	<?php if ($setting_registrasi['enable'] == 'Y') { ?>
-		<p>Belum punya akun? <a href="<?=$config->baseURL?>register">Daftar akun</a></p>
-	<?php }?>
-	<p>Tidak menerima link aktivasi? <a href="<?=$config->baseURL?>register/resendlink">Kirim ulang</a></p>
-</div>
+
 
 <?= $this->endSection() ?>
