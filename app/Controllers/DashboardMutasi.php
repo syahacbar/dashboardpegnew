@@ -4,7 +4,7 @@ namespace App\Controllers;
 
 use App\Models\DashboardModel;
 
-class DashboardMutasi extends BaseController
+class Dashboardmutasi extends BaseController
 {
 	public function __construct()
 	{
