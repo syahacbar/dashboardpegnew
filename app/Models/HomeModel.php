@@ -67,7 +67,7 @@ class HomeModel extends \App\Models\BaseModel
 		elseif ($jj == 'FT')
 		{
 			$sql = 'SELECT COUNT(tp.fung_namajabatan_ft) AS jumlah FROM tbl_pegawai tp WHERE SHA1(tp.id_instansi)="'.$id_instansi.'" and tp.fung_namajabatan_ft <>""';
-		}
+		} 
 		 
 		$result = $this->db->query($sql)->getRow();
 		return $result;
@@ -75,7 +75,7 @@ class HomeModel extends \App\Models\BaseModel
 
 	public function get_usulankp_by_instansi($id_instansi)
 	{
-		$waktu_update = $this->get_active_data($id_instansi);
+		$waktu_update = $this->get_active_data($id_instansi,'tbl_kenaikanpangkat');
 		if($waktu_update != NULL)
 		{
 			$wu_arr = array();
@@ -94,9 +94,51 @@ class HomeModel extends \App\Models\BaseModel
 		return $result;
 	}
 
+	public function get_usulanpi_by_instansi($id_instansi)
+	{
+		$waktu_update = $this->get_active_data($id_instansi,'tbl_pindah_instansi');
+		if($waktu_update != NULL)
+		{
+			$wu_arr = array();
+			$urut = 1;
+			foreach($waktu_update AS $wu)
+			{
+				$wu_arr[$urut] = $wu->waktu_upload;
+				$urut++;
+			}
+			$wherewaktuupload = implode(",",$wu_arr);
+			$sql = 'SELECT tpi.status, COUNT(tpi.status) AS jum_upi FROM tbl_pindah_instansi tpi WHERE SHA1(tpi.id_instansi)="'.$id_instansi.'" AND waktu_update IN ("'.$wherewaktuupload.'") GROUP BY tpi.status';
+		} else {
+			$sql = 'SELECT tpi.status, COUNT(tpi.status) AS jum_upi FROM tbl_pindah_instansi tpi WHERE SHA1(tpi.id_instansi)="'.$id_instansi.'" GROUP BY tpi.status';
+		}
+		$result = $this->db->query($sql)->getResult();
+		return $result;
+	}
+
+	public function get_usulanpensiun_by_instansi($id_instansi)
+	{
+		$waktu_update = $this->get_active_data($id_instansi,'tbl_pensiun');
+		if($waktu_update != NULL)
+		{
+			$wu_arr = array();
+			$urut = 1;
+			foreach($waktu_update AS $wu)
+			{
+				$wu_arr[$urut] = $wu->waktu_upload;
+				$urut++;
+			}
+			$wherewaktuupload = implode(",",$wu_arr);
+			$sql = 'SELECT tp.status_usulan, COUNT(tp.status_usulan) AS jum_upensiun FROM tbl_pensiun tp WHERE SHA1(tp.id_instansi)="'.$id_instansi.'" AND waktu_update IN ("'.$wherewaktuupload.'") GROUP BY tp.status_usulan';
+		} else {
+			$sql = 'SELECT tp.status_usulan, COUNT(tp.status_usulan) AS jum_upensiun FROM tbl_pensiun tp WHERE SHA1(tp.id_instansi)="'.$id_instansi.'" GROUP BY tp.status_usulan';
+		}
+		$result = $this->db->query($sql)->getResult();
+		return $result;
+	}
+
 	public function count_all_usulankp_by_instansi($id_instansi)
 	{
-		$waktu_update = $this->get_active_data($id_instansi);
+		$waktu_update = $this->get_active_data($id_instansi,'tbl_kenaikanpangkat');
 		if($waktu_update != NULL)
 		{
 			$wu_arr = array();
@@ -119,9 +161,59 @@ class HomeModel extends \App\Models\BaseModel
 		return $result;
 	}
 
+	public function count_all_usulanpi_by_instansi($id_instansi)
+	{
+		$waktu_update = $this->get_active_data($id_instansi,'tbl_pindah_instansi');
+		if($waktu_update != NULL)
+		{
+			$wu_arr = array();
+			$urut = 1;
+			foreach($waktu_update AS $wu)
+			{
+				$wu_arr[$urut] = $wu->waktu_upload;
+				$urut++;
+			}
+			$wherewaktuupload = implode(",",$wu_arr);
+			$sql = 'SELECT COUNT(tpi.status) AS jum_upi FROM tbl_pindah_instansi tpi WHERE SHA1(tpi.id_instansi)="'.$id_instansi.'" AND waktu_update IN ("'.$wherewaktuupload.'")';
+		}
+		else
+		{
+			$sql = 'SELECT COUNT(tpi.status) AS jum_upi FROM tbl_pindah_instansi tpi WHERE SHA1(tpi.id_instansi)="'.$id_instansi.'"';
+		}
+
+		
+		$result = $this->db->query($sql)->getRow();
+		return $result;
+	}
+
+	public function count_all_usulanpensiun_by_instansi($id_instansi)
+	{
+		$waktu_update = $this->get_active_data($id_instansi,'tbl_pensiun');
+		if($waktu_update != NULL)
+		{
+			$wu_arr = array();
+			$urut = 1;
+			foreach($waktu_update AS $wu)
+			{
+				$wu_arr[$urut] = $wu->waktu_upload;
+				$urut++;
+			}
+			$wherewaktuupload = implode(",",$wu_arr);
+			$sql = 'SELECT COUNT(tp.status_usulan) AS jum_upensiun FROM tbl_pensiun tp WHERE SHA1(tp.id_instansi)="'.$id_instansi.'" AND waktu_update IN ("'.$wherewaktuupload.'")';
+		}
+		else
+		{
+			$sql = 'SELECT COUNT(tp.status_usulan) AS jum_upensiun FROM tbl_pensiun tp WHERE SHA1(tp.id_instansi)="'.$id_instansi.'"';
+		}
+
+		
+		$result = $this->db->query($sql)->getRow();
+		return $result;
+	}
+
 	public function count_usulankp_by_instansi($id_instansi,$status)
 	{
-		$waktu_update = $this->get_active_data($id_instansi);
+		$waktu_update = $this->get_active_data($id_instansi,'tbl_kenaikanpangkat');
 		if($waktu_update != NULL)
 		{
 			$wu_arr = array();
@@ -145,28 +237,62 @@ class HomeModel extends \App\Models\BaseModel
 
 	}
 
-	// public function count_usulan_kp_by_status($status)
-	// {
-	// 	$waktu_update = $this->get_active_data($id_instansi);
-	// 	if($waktu_update != NULL)
-	// 	{
-	// 		$wu_arr = array();
-	// 		$urut = 1;
-	// 		foreach($waktu_update AS $wu)
-	// 		{
-	// 			$wu_arr[$urut] = 'waktu_update="'.$wu->waktu_upload.'"';
-	// 			$urut++;
-	// 		}
-	// 		$wherewaktuupload = implode(" OR ",$wu_arr);
-	// 	}
-	// 	$sql = 'SELECT COUNT(tk.status) AS jumlah_status FROM tbl_kenaikanpangkat tk WHERE tk.status="'.$status.'" AND '.$wherewaktuupload;
-	// 	$result = $this->db->query($sql)->getRow();
-	// 	return $result;
-	// }
-
-	public function get_active_data($id_instansi)
+	public function count_usulanpi_by_instansi($id_instansi,$status)
 	{
-		$sql = 'SELECT * FROM tbl_history_import WHERE aktif="0" AND SHA1(id_instansi) = "'.$id_instansi.'"';
+		$waktu_update = $this->get_active_data($id_instansi,'tbl_pindah_instansi');
+		if($waktu_update != NULL)
+		{
+			$wu_arr = array();
+			$urut = 1;
+			foreach($waktu_update AS $wu)
+			{
+				$wu_arr[$urut] = $wu->waktu_upload;
+				$urut++;
+			}
+			$wherewaktuupload = implode(",",$wu_arr);
+			$sql = 'SELECT COUNT(tpi.status) AS countstatus FROM tbl_pindah_instansi tpi WHERE SHA1(tpi.id_instansi)="'.$id_instansi.'" AND tpi.status="'.$status.'" AND waktu_update IN ("'.$wherewaktuupload.'")';
+		}
+		else
+		{
+			$sql = 'SELECT COUNT(tpi.status) AS countstatus FROM tbl_pindah_instansi tpi WHERE SHA1(tpi.id_instansi)="'.$id_instansi.'" AND tpi.status="'.$status.'"';
+		}
+
+		
+		$result = $this->db->query($sql)->getRow();
+		return $result;
+
+	}
+
+	public function count_usulanpensiun_by_instansi($id_instansi,$status)
+	{
+		$waktu_update = $this->get_active_data($id_instansi,'tbl_pensiun');
+		if($waktu_update != NULL)
+		{
+			$wu_arr = array();
+			$urut = 1;
+			foreach($waktu_update AS $wu)
+			{
+				$wu_arr[$urut] = $wu->waktu_upload;
+				$urut++;
+			}
+			$wherewaktuupload = implode(",",$wu_arr);
+			$sql = 'SELECT COUNT(tp.status_usulan) AS countstatus FROM tbl_pensiun tp WHERE SHA1(tp.id_instansi)="'.$id_instansi.'" AND tp.status_usulan="'.$status.'" AND waktu_update IN ("'.$wherewaktuupload.'")';
+		}
+		else
+		{
+			$sql = 'SELECT COUNT(tp.status_usulan) AS countstatus FROM tbl_pensiun tp WHERE SHA1(tp.id_instansi)="'.$id_instansi.'" AND tp.status_usulan="'.$status.'"';
+		}
+
+		
+		$result = $this->db->query($sql)->getRow();
+		return $result;
+
+	}
+
+
+	public function get_active_data($id_instansi,$tabel)
+	{
+		$sql = 'SELECT * FROM tbl_history_import WHERE aktif="1" AND SHA1(id_instansi) = "'.$id_instansi.'" AND tabel="'.$tabel.'"';
 		$result = $this->db->query($sql)->getResult();
 		return $result;
 	}
