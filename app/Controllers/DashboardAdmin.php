@@ -4,7 +4,7 @@ namespace App\Controllers;
 
 use App\Models\DashboardModel;
 
-class DashboardAdmin extends BaseController
+class Dashboardadmin extends BaseController
 {
 	public function __construct()
 	{
